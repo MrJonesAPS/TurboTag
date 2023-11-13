@@ -32,6 +32,7 @@ Game Rules:
    - Bonus for capturing all opponent bands: At the end of the game, each player that has zero bands of their own color awards their opponent 10 points.
    - Single color bonus: At the end of the game, each band that a team holds of their opposing team's color is worth an additional bonus point.
 """
+#this adds future functionality for type hinting, and avoids having to import typing 
 from __future__ import annotations
 
 class Player:
@@ -202,6 +203,12 @@ class Game:
 
 if __name__ == "__main__":
     # Usage example with simplified game setup and flow
+    print("""
+        Welcome to the world of TurboTag!\n \
+        This code includes everything you need to simulate an exciting game\n \
+        ...but it includes some bugs. To get started, here's code for a very simple game\n \
+        where nothing happens. Why is the score not 0-0?""")
+    print
     team1 = Team("Blue", 6, "blue")
     team2 = Team("Red", 7, "red")
     game = Game(team1, team2)
@@ -210,4 +217,6 @@ if __name__ == "__main__":
 
     #This code ends the game
     game.end_game()
+
+    
     
