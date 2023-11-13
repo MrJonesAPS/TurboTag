@@ -6,20 +6,27 @@ It is played on a rectangular field with a goal at each end, involving two teams
 The primary objective is to score points through tagging, ball possession, and goal scoring.
 
 Game Rules:
+
 1. Team Composition: Teams can have 5 to 9 players. Each additional player beyond five reduces the team's total band count by 2.
 2. Starting the Game: Begins with a jump ball at the center. The team that secures the ball gains initial possession.
 3. Scoring Points:
+
    - Goal Score: Throwing the ball into the opponent's goal scores 3 points.
    - Band Capture: Tagging an opponent allows stealing a band, earning 1 point. If the tagged player holds bands of more than one color, 
      the tagging player steals a band of their own team's color. The tagger only steals a band of the opposing team's color if the tagged player 
      has only bands of that color.
+   - End of game bonuses, described below.
+
 4. Tagging Mechanism:
+
    - Players can tag opponents to steal their bands.
    - A player must wait at least 30 seconds before re-tagging the same opponent.
    - If a tagged player holds the ball, the ball is transferred to the nearest opponent. If this tag occurs within 5 meters of the tagging 
      player's team's goal, the tag is also worth one point (this is called a "block-by-tag").
+
 5. Time Limit: Two 25-minute halves with a break in between.
 6. Scoring System:
+
    - Each goal: 3 points.
    - Each band captured: 1 point.
    - Bonus for capturing all opponent bands: At the end of the game, each player that has zero bands of their own color awards their opponent 10 points.
