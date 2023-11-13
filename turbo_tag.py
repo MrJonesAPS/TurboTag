@@ -208,7 +208,6 @@ if __name__ == "__main__":
         This code includes everything you need to simulate an exciting game\n \
         ...but it includes some bugs. To get started, here's code for a very simple game\n \
         where nothing happens. Why is the score not 0-0?""")
-    print
     team1 = Team("Blue", 6, "blue")
     team2 = Team("Red", 7, "red")
     game = Game(team1, team2)
